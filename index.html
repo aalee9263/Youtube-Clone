@@ -1,42 +1,112 @@
-<header class="header">
-    <div class="left">
-      <button class="menu-button">
-        <svg class="icon">
-          <use xlink:href="#menu-icon"></use>
-        </svg>
-        YouTube
-        <img class="logo" src="https://i.ytimg.com/yts/img/yt_logo_rgb_dark.png" alt="YouTube logo">
-      </button>
-    </div>
-    <div class="center">
-      <input class="search-bar" type="search" placeholder="Search">
-      <button class="search-button">
-        <svg class="icon">
-          <use xlink:href="#search-icon"></use>
-        </svg>
-      </button>
-      <button class="mic-button">
-        <svg class="icon">
-          <use xlink:href="#mic-icon"></use>
-        </svg>
-      </button>
-    </div>
-    <div class="right">
-      <button class="camera-button">
-        <svg class="icon">
-          <use xlink:href="#camera-icon"></use>
-        </svg>
-      </button>
-      <button class="notification-button">
-        <svg class="icon">
-          <use xlink:href="#notification-icon"></use>
-        </svg>
-      </button>
-      <button class="profile-button">
-        <svg class="icon">
-          <use xlink:href="#profile-icon"></use>
-        </svg>
-      </button>
-    </div>
-  </header>
-  
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Clone-UI</title>
+<link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="YT-Header">
+      <div class="logo-left">
+        <div id="menu">
+          <img
+            src="./img/menu-icon.png"
+            alt="menu-icon"
+            width="25px"
+            height="25px"
+          />
+        </div>
+        <div class="Ytube-img">
+          <img src="./img/YT-Logo.png" alt="logo-icon" height="20px" />
+        </div>
+      </div>
+      <div class="sr-cen">
+        <div class="sr-cont">
+          <div class="srbr-box">
+            <div class="srbar">
+              <input type="text" class="sr-input" placeholder="Search..." />
+            </div>
+            <div class="srbox-ic">
+              <button id="sr-ic">
+                <img
+                  src="./img/search-icon.png"
+                  alt="search-icon"
+                  class="sr-ic-img"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="mic-box">
+            <button id="mic-ic">
+              <img src="./img/mic-icon.png" alt="mic-icon" class="mic-ic-img" />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="icons-right">
+        <img src="./img/cam-icon.png" alt="cam-icon" />
+        <img src="./img/bell-icon.png" alt="bell-icon" />
+        <img src="./img/user-icon.png" alt="user-icon" />
+      </div>
+    </header>
+    <main>
+      <div class="side-bar">
+        <div class="sdbr-links">
+          <a href=""
+            ><img src="./img/home.png" />
+            <p>home</p>
+          </a>
+          <a href=""
+            ><img src="./img/shorts.png" />
+            <p>Shorts</p>
+          </a>
+          <a href=""
+            ><img src="./img/subscrip.png" />
+            <p>Subscritptions</p>
+          </a>
+          <hr>
+          <a href=""
+            ><img src="./img/library.png" />
+            <p>Library</p>
+          </a>
+          
+          <a href=""
+            ><img src="./img/history.png" />
+            <p>history</p>
+          </a>
+          <a href=""
+            ><img src="./img/your videos.png" />
+            <p>Your videos</p>
+          </a>
+          <a href=""
+            ><img src="./img/Watch Later.png" />
+            <p>Watch Later</p>
+          </a>
+          <a href=""
+            ><img src="./img/Liked Videos.png" />
+            <p>Liked videos</p>
+          </a>
+          <a href=""
+            ><img src="./img/Showmore.png.png" />
+            <p>Show more</p>
+          </a>
+          <hr>
+        </div>
+        Subscriptions
+        <div class="subscribed">
+          <a href=""
+            ><img src="./img/home.png" />
+            <p>home</p>
+          </a>
+        </div>
+      </div>
+      
+    </main>
+  </body>
+</html>

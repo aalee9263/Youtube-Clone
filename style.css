@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+body {
+  font-family: "roboto", sans-serif;
+
+}
+.YT-Header {
+  height: 20px;
+  padding: 10px ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  z-index: 10;
+    
+}
+.YT-Header .logo-left {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+.sr-cen {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 650px;
+}
+.sr-cen .sr-cont {
+  display: flex;
+  align-items: center;
+  width: 550px;
+  gap: 14px;
+}
+.sr-cen .sr-cont .srbr-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid gray;
+  height: 35px;
+  border-radius: 30px 30px 30px 30px;
+  overflow: hidden;
+  
+}
+.sr-cen .sr-cont .srbr-box .srbar .sr-input {
+  width: 400px;
+  border: none;
+  display: flex;
+  outline: none;
+  flex-grow: 1;
+  margin-left: 15px;
+  font-size: inherit;
+  
+}
+
+
+#sr-ic {
+  display: flex;
+  height: 40px;
+  width: 60px;
+  border-radius: 0 45px 45px 0;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: #F0F0F0;
+  border: 1px solid gray;
+}
+#sr-ic .sr-ic-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  color: black;
+}
+
+#mic-ic {
+  display: flex;
+  background-color: #F0F0F0; /* Transparent background for the button */
+  border: none;
+  padding: 0; /* Remove padding to ensure the button touches the container border */
+  cursor: pointer;
+  position: relative; /* Position relative for absolute positioning of the icon */
+  margin-left: 5px; /* Adjust the margin to make the button touch the container border */
+  width: 35px; /* Set a fixed width for the button */
+  height: 35px;
+  border-radius: 50%;
+  outline: none;
+  
+}
+#mic-ic .mic-ic-img {
+  display: block;
+  margin: auto;
+  position: absolute; /* Position the icon absolutely */
+  top: 0;
+  left: -1px;
+  bottom: 0;
+  right: 0;
+}
+.YT-Header .icons-right{
+  display: flex;
+  padding: 0;
+  gap: 25px;
+  cursor: pointer;
+}
+.side-bar{
+  background-color: #fff;
+  width: 15%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  padding-left: 1%;
+  padding-top: 70px;
+ 
+}
+
+.side-bar .sdbr-links a img{
+  width: 20px;
+  margin-right: 20px;
+}
+.side-bar .sdbr-links a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: fit-content;
+  flex-wrap: wrap;
+}
+.side-bar .sdbr-links .hr {
+  border: 0;
+  height: 1px;
+}
