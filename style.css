@@ -2,35 +2,32 @@
 
 body {
   font-family: "roboto", sans-serif;
-  margin: 0;
+
 }
 .YT-Header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem;
-  position: sticky;
-  z-index: 4;
+  padding-right: 5px;
+  
 }
 .YT-Header .logo-left {
   display: flex;
   align-items: center;
-  gap: 1.1rem;
+  gap: 16px;
   cursor: pointer;
-  margin: -0.4rem;
 }
 .sr-cen {
 }
 .sr-cen .sr-cont {
   display: flex;
   align-items: center;
-  gap:0.875rem ;
+  gap:10px ;
 }
 .sr-cen .sr-cont .srbr-box {
   display: flex;
   align-items: center;
   border: 1px solid gray;
-  height: 35px;
   border-radius: 30px 30px 30px 30px;
   overflow: hidden;
 }
@@ -40,13 +37,13 @@ body {
   display: inline;
   outline: none;
   flex-grow: 1;
-  margin-left: 15px;
+  margin-left: 20px;
   font-size: inherit;
 }
 
 #sr-ic {
-  height: 40px;
-  width: 60px;
+  height: 34px;
+  width: 50px;
   border-radius: 0 45px 45px 0;
   position: relative;
   cursor: pointer;
@@ -61,6 +58,7 @@ body {
 
 #mic-ic {
   display: flex;
+  align-items: center;
   background-color: #f0f0f0; /* Transparent background for the button */
   border: none;
   padding: 0; /* Remove padding to ensure the button touches the container border */
@@ -83,18 +81,13 @@ body {
 }
 .YT-Header .icons-right {
   display: flex;
-  padding: 0;
-  gap: 1.563rem;
+  gap: 20px;
   cursor: pointer;
 }
 .side-bar {
   background-color: #fff;
   width: 17%;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  padding-left: 1%;
-  padding-top: 70px;
+  height: 100%;
 }
 
 .side-bar .sdbr-links a img {
@@ -105,9 +98,8 @@ body {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
-  width: fit-content;
-  flex-wrap: wrap;
-  margin: 0 ;
+  flex-wrap: nowrap;
+  margin: -0.1px ;
 }
 .side-bar .sdbr-links .hr {
   border: 0;
@@ -122,9 +114,6 @@ body {
 .subsd-list a {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
-  width: fit-content;
-  flex-wrap: wrap;
 }
 .subsd-list a img {
   width: 25px;
@@ -132,7 +121,7 @@ body {
   margin-right: 20px;
 }
 .small-side-bar {
-  width: 5%;
+  
 }
 .small-side-bar a p {
   display: none;
